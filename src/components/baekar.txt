@@ -1,0 +1,194 @@
+<div className="Awards mt-4 ">
+                            <div className='text-4xl'>
+                                <span style={{ color: 'black' }}>Awards & </span>
+                                <span style={{ color: '#770713' }}>Hounors</span>
+                            </div>
+                            <ul style={{ marginTop: '0.7rem', listStyle: 'disc' }}>
+                                <li>Best paper award for the paper titled “Laser diagnostics techniques for the internal spray characterization of fuel injectors” at the National Conference on Future directions in Propulsion, held at LPSC, Thiruvananthapuram, India, 2018.
+                                </li>
+                                <li>Boeing BUILD 2.0 Innovation challenge National winner, Development of a microgas turbine combustor technology for UCAV applications.</li>
+                                <li>SERB SIRE fellow, 2023,
+                                    Visiting researcher, Technical University of Munich. Development of METHALOX liquid rocket engine concept.
+                                </li>
+                            </ul>
+                        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                         <ul>
+                    <span className='text-4xl ' style={{ color: '#1976d2', fontWeight: '600' }}>Education</span>
+
+                    <li>B. Tech in Mecahnical Engineering, 20010, Calicut University
+                    </li>
+                    <li>M.S. and Ph.D in Aerospace Engineering, 2018, IIT Madras</li>
+                </ul>
+                <ul>
+                    <span className='text-4xl ' style={{ color: '#1976d2', fontWeight: '600' }}>Experinces</span>
+
+                    <li>Senior Scientist, NCCRD IIT Madras (2018-2020)
+
+                    </li>
+                    <li>Project Associate, IIT Madras (2011- 2012)</li>
+                    <li>
+                        Visiting Researcher, Technical University of Munich, Germany (2023 Dec-
+                        2024)</li>
+                </ul>
+
+                <span className='text-4xl ' style={{ color: '#1976d2', fontWeight: '600' }}>Teaching Experinces</span>
+                <ul>
+                    <span className='text-4xl ' style={{ color: '#9414FF', fontWeight: '600' }}>Core courses
+                    </span>
+                    <li>Engineering Thermodynamics,
+                    </li>
+                    <li>Engineering Fluid Dynamics,
+                    </li>
+                    <li>Fluid Mechanics and Machinery lab
+                    </li>
+                    <li>
+                        Energy Systems and Technology
+                        Elective courses
+                    </li>
+
+                    <span className='text-4xl ' style={{ color: '#9414FF', fontWeight: '600' }}>Elcetive corses</span>
+                    <li>
+                        Compressible fluid flows
+                    </li>
+                    <li>Introduction to Combustion
+                    </li>
+                    <li>
+                        Atomization and Sprays</li>
+                </ul>
+
+
+                <ul>
+                    <span className='text-4xl ' style={{ color: '#1976d2', fontWeight: '600' }} >Administrative responsibilities</span>
+
+                    <li>Associate Dean, Academic PG programs
+
+
+                    </li>
+                    <li> Institute incubation cell (I3C) Working committee member</li>
+                    <li>Pre- PFC purchase committee member</li>
+                    <li>Fluid Mechanics- Lab-in-charge</li>
+                </ul>
+
+                <ul>
+                    <span className='text-4xl ' style={{ color: '#1976d2', fontWeight: '600' }}>Projects
+                    </span>
+                    <li>Design, realization, and commissioning of a spray characterization system at
+                        IPRC. Budget: 1.04 Crores
+                        Role: Co-PI, Funding Agency: ISRO
+                        Status: Completed (Jan 2021-July 2022)
+                    </li>
+                    <li>
+                        Development of an air assisted rotary atomizer system for slag granulation, using
+                        Laser flow diagnostic studies and characterization of resulting slag granules
+                        Budget: 80 Lakhs, Role: PI, Funding Agency: Institute seed grant
+                        Status: Ongoing
+                    </li>
+                    <li>
+                        Experimental characterization &amp;amp; parametric study on liquid jet penetration
+                        and
+                        break-up in a free supersonic gas jets
+                        Budget: 26 Lakhs, Role: PI, Funding agency: ISRO
+                    </li>
+                    <li>Boeing Build 2.0 Grant: Compact micro gas turbine engine technology for UCAV,
+                        10
+                        Lakhs.</li>
+                </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                import React from 'react';
+import { Link } from 'react-router-dom';
+import '../css/header.css'
+
+function Header() {
+    // const [scrolled, setScrolled] = useState(false);
+
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //         const isScrolled = window.scrollY > 300;
+    //         setScrolled(isScrolled);
+    //     };
+
+    //     window.addEventListener('scroll', handleScroll);
+    //     return () => {
+    //         window.removeEventListener('scroll', handleScroll);
+    //     };
+    // }, []);
+
+    return (
+        <div className="header flex flex-col items-center" style={{ backgroundColor: '#020617' }}>
+            <div className="up flex justify-around h-20 w-full text-3xl pt-12 items-center ">
+                <img src="./asetes/logo.png" alt="institue logo" />
+                <span className='text-white text-6xl'>Propulsion and Energy lab</span>
+                <img style={{ height: '5rem' }} src="./asetes/rocket.png" alt="lab logo" />
+            </div>
+
+            <div className="down mt-20 flex  justify-around w-9/12 items-center text-2xl mb-8" style={{ color: '#00abf0' }}>
+
+                <Link to="/" className="nav-link fs-5 text-primary">
+                    Home
+                </Link>
+                <Link to="/Investors" className="nav-link fs-5 text-primary">
+                    Principal Investigator
+                </Link>
+                <Link to="/Facilities" className="nav-link fs-5 text-primary">
+                    Facilities
+                </Link>
+                <Link to="/Publications" className="nav-link fs-5 text-primary">
+                    Publications
+                </Link>
+                <Link to="/Team" className="nav-link fs-5 text-primary">
+                    Team
+                </Link>
+                <Link to="/Research" className="nav-link fs-5 text-primary">
+                    Research Positions
+                </Link>
+                <Link to="/Contact" className="nav-link fs-5 text-primary">
+                    Contact us
+                </Link>
+                <Link to="/Updates" className="nav-link fs-5 text-primary">
+                    Updates
+                </Link>
+
+            </div>
+        </div>
+    );
+}
+
+export default Header;
+
+
+
+
+
+<a href="https://www.linkedin.com/in/shanmugadas-k-p-bb52662a/"> <LinkedInIcon fontSize='large' color='primary' /></a> 
+                           <a href="https://iitjammu.ac.in/faculty/~shanmugadaskp"> <PersonIcon fontSize='large' color='primary' /></a> 
+                           <a href="https://scholar.google.com/citations?user=SQEygN0AAAAJ&hl=en&oi=ao"> <GoogleIcon fontSize='large' color='primary' /></a> 

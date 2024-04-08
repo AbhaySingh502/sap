@@ -1,0 +1,31 @@
+.nav-link {
+    position: relative;
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    /* Add transition for color and border-bottom */
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    /* Initially set width to 0 */
+    height: 2px;
+    background-color: #00abf0;
+    /* Color of the border-bottom */
+    transition: width 0.3s ease;
+    /* Add transition for width */
+}
+
+.nav-link:hover::after {
+    width: 100%;
+    /* Expand the width on hover */
+}
+
+.nav-link:hover {
+    color: #00abf0;
+    /* Change color on hover */
+}

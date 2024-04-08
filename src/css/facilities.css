@@ -1,0 +1,12 @@
+.para {
+    color: white;
+    flex-wrap: wrap;
+    text-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    font-size: 1.3rem;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    padding: 3rem;
+}

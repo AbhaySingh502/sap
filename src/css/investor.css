@@ -1,0 +1,50 @@
+/* In your CSS file */
+.up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left {
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    /* Adjust the max-width as needed */
+    margin-right: 20px;
+    /* Add margin for spacing */
+}
+
+.socail {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* Add margin for spacing */
+}
+
+.middle {
+    flex: 1;
+}
+
+/* Add a media query for responsiveness */
+@media (max-width: 768px) {
+    .up {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        margin-bottom: 20px;
+        /* Add margin for spacing */
+    }
+
+    .left {
+        margin-right: 0;
+        width: auto;
+    }
+}

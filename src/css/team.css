@@ -1,0 +1,23 @@
+/* Add styles for other sections as needed */
+
+.team-header {
+    background-image: url("../assetes/teamimage.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+@media (max-width: 500px) {
+    .team-header {
+        background-image: url("../assetes/teamimage.jpg");
+        background-position: 50% 95%;
+    }
+
+    .our-team-heading {
+        font-size: 3em !important;
+    }
+}
+
+.our-team-heading {
+    /* font-size: 3em !important; */
+    margin: 1px 1px 320px 20px;
+}
