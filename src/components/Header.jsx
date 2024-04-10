@@ -19,18 +19,18 @@ function Header() {
             {/* Desktop Header */}
             <div className="hidden md:block bg-gray-900 text-white py-2">
                 <div className="container mx-auto flex justify-center items-center">
-                    <h1 className="text-5xl font-semibold">Propulsion and Energy Lab</h1>
+                    <h1 className="text-3xl font-bold">Propulsion and Energy Lab</h1>
                 </div>
             </div>
 
             {/* Mobile Header */}
             <div className="md:hidden bg-gray-900 text-white py-2">
-                <div className="container mx-auto flex justify-between items-center">
-                    <h1 className="text-4xl font-bold">Propulsion and Energy Lab</h1>
+                <div className="container mx-auto flex flex-row justify-between items-center">
+                    <h1 className="text-3xl font-bold">Propulsion and Energy Lab</h1>
                     {/* Conditionally render hamburger or close icon based on menu state */}
                     {isMobileMenuOpen ? (
                         <button onClick={closeMobileMenu} className="focus:outline-none">
-                            <CloseIcon fontSize='large' /> {/* Close icon */}
+                            <CloseIcon /> {/* Close icon */}
                         </button>
                     ) : (
                         <button onClick={toggleMobileMenu} className="focus:outline-none">
@@ -59,9 +59,9 @@ function Header() {
                             <Link to="/Publications" className="nav-link mb-4 w-fit" onClick={closeMobileMenu}>
                                 Publications
                             </Link>
-                            <a href="/Team" className="nav-link mb-4 w-fit" onClick={closeMobileMenu}>
+                            <Link to="/Team" className="nav-link mb-4 w-fit" onClick={closeMobileMenu}>
                                 Team
-                            </a>
+                            </Link>
                             <Link to="/Research" className="nav-link mb-4 w-fit" onClick={closeMobileMenu}>
                                 Research Positions
                             </Link>
@@ -76,7 +76,7 @@ function Header() {
                 </div>
             )}
 
-            <div className="dekstop text-2xl" style={{ backgroundColor: '#111827', color: '#fff' }}>
+            <div className="hidden md:block dekstop text-2xl" style={{ backgroundColor: '#111827', color: '#fff' }}>
 
                 {/* Desktop Navigation */}
                 <div className="hidden md:block container mx-auto py-4">

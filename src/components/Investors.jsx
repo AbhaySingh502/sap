@@ -197,7 +197,7 @@ function Investors() {
                             <span>Indian Institute of Technology Jammu</span>
                             <span>Jammu and Kashmir 181 221, India</span>
                             <span>shanmugadas.kp@iitjammu.ac.in </span>
-                            <span>Mobile: +91 8939576224</span>
+
                         </div>
 
                     </div>

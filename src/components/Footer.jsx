@@ -1,7 +1,7 @@
 import React from 'react'
-import InstagramIcon from '@mui/icons-material/Instagram';
-import YouTubeIcon from '@mui/icons-material/YouTube';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GoogleIcon from '@mui/icons-material/Google';
+import PersonIcon from '@mui/icons-material/Person';
 function Footer() {
     return (
         <div className='mt-3' style={{ backgroundColor: 'aliceblue', boxShadow: 'black 5px 5px 20px' }}>
@@ -24,14 +24,18 @@ function Footer() {
                             <form className='mb-5'>
                                 <h5 className='text-2xl text-primary'>Develpoer Profile</h5>
                                 <div className="profiles d-flex flex-column">
-                                    <a href="#" className='text-decoration-none text-xl text-body-secondary'>Abhay Singh</a>
+                                    <a href="https://github.com/AbhaySingh502" className='text-decoration-none text-xl text-body-secondary'>Abhay Singh</a>
                                 </div>
 
                             </form>
 
-                            <div className="contact_us fs-4">
+                            <div className="contact_us fs-4 text-center">
                                 <span>Follow us: </span>
-                                <span style={{ color: '#1874fd' }}>shanmugadas.kp@iitjammu.ac.in</span>
+                                <div className="socail flex justify-between">
+                                    <a href="https://www.linkedin.com/in/shanmugadas-k-p-bb52662a/"> <LinkedInIcon fontSize='large' color='primary' /></a>
+                                    <a href="https://iitjammu.ac.in/faculty/~shanmugadaskp"> <PersonIcon fontSize='large' color='primary' /></a>
+                                    <a href="https://scholar.google.com/citations?user=SQEygN0AAAAJ&hl=en&oi=ao"> <GoogleIcon fontSize='large' color='primary' /></a>
+                                </div>
 
                             </div>
 

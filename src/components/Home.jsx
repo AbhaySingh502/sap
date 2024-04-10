@@ -27,12 +27,12 @@ function Home() {
                 <div className="reacerch_areas mt-4" style={{ backgroundColor: '#315a71' }} >
 
                     <Tilt style={{ display: "inline-block", width: '100%' }} tiltMaxAngleX={"2"} tiltMaxAngleY={"1"}>
-                        <Link to="/turbine">
+                        <Link to="/Turbine">
                             <HorizontalCard />
                         </Link>
                     </Tilt>
                     <Tilt style={{ display: "inline-block", width: '100%' }} tiltMaxAngleX={"2"} tiltMaxAngleY={"1"}>
-                        <Link to="/rocket" >
+                        <Link to="/Rocket" >
                             <HorizontalCard_two />
                         </Link>
                     </Tilt>

@@ -1,10 +1,6 @@
 /* Add styles for other sections as needed */
 
-.team-header {
-    background-image: url("../assetes/teamimage.jpg");
-    background-size: cover;
-    background-position: 50% 50%;
-}
+
 
 @media (max-width: 500px) {
     .team-header {

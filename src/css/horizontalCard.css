@@ -1,0 +1,57 @@
+.horizontal-card {
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 640px) {
+        flex-direction: row;
+    }
+}
+
+.card-header {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+
+    @media (min-width: 640px) {
+        width: 50%;
+        border-radius: 10px 0 0 10px;
+        margin-bottom: 0;
+    }
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+
+    @media (min-width: 640px) {
+        border-radius: 10px 0 0 10px;
+    }
+}
+
+.main {
+    width: 100%;
+
+    @media (min-width: 640px) {
+        width: 50%;
+    }
+}
+
+.content {
+    padding: 1rem;
+
+    @media (min-width: 640px) {
+        padding: 1rem 2rem;
+    }
+}
+
+.head {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid goldenrod;
+}
+
+.details {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}

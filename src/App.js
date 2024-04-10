@@ -11,6 +11,9 @@ import Updates from './components/Updates';
 import Research from './components/Research'
 import Facilities from './components/Facilities';
 import Contact from './components/Contact';
+import Rock from './components/Rock';
+import Gas from './components/Gas';
+
 function App() {
   return (
     <div className="App">
@@ -25,6 +28,8 @@ function App() {
           <Route path="/Updates" element={<Updates />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Research" element={<Research />} />
+          <Route path="/Rocket" element={<Rock />} />
+          <Route path="/Turbine" element={<Gas />} />
         </Routes>
       </BrowserRouter>
       <Footer />
