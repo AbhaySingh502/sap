@@ -17,7 +17,7 @@ function HorizontalCard() {
             <div className="main w-full bg-slate-950 text-white flex justify-center items-center md:w-2/6"> {/* Added md:w-2/6 class */}
                 <div className="content pt-8 pb-8">
                     <div className="head text-5xl w-fit mb-8" style={{ borderBottom: '3px solid goldenrod' }}>
-                        <span>Gas Turbine Engine</span>
+                        <span>Gas Turbine Combustor</span>
                     </div>
 
                 </div>
