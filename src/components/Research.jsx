@@ -31,7 +31,7 @@ function Research() {
             return (
               <li className='text-xl mt-3'>
                 <h2 style={{ color: '#00abf0', marginBottom: '1rem', fontSize: '1.8rem' }}>{val.head} </h2>
-                <p style={{ color: '#fff', fontSize: '1.25rem', paddingLeft: '3rem' }}>{val.para}</p>
+                <p style={{ color: '#fff', fontSize: '1.25rem', paddingLeft: '3rem', textAlign: 'justify' }}>{val.para}</p>
               </li>
             )
           })}

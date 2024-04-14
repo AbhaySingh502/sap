@@ -134,7 +134,7 @@ function Publications() {
     <div className='w-3/5 m-auto'>
       <div className="publication mt-20">
         <h1 style={{ color: 'blueviolet', fontSize: '2.3rem', textAlign: 'center' }}>PUBLICATIONS</h1>
-        <ul className='list-decimal mt-4'>
+        <ul className='list-decimal mt-4' >
           {publication_data.map((val, key) => {
             return (
               <li className='text-xl mt-3'>{val.name}</li>
