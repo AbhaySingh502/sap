@@ -18,9 +18,9 @@ function HorizontalCard() {
                 <div className="content pb-8 pt-8">
                     <div className="head text-5xl w-fit mb-8" style={{ borderBottom: '3px solid goldenrod' }}>
                         <span>Liquid Rocket Propulsion</span>
-                        We are working to develop a reusable Liquid rocket combustor and currently efforts are directed to develop a novel injector concept for METHALOX engines.
-                    </div>
 
+                    </div>
+                    We are working to develop a reusable Liquid rocket combustor and currently efforts are directed to develop a novel injector concept for METHALOX engines.
                 </div>
             </div>
         </Card>
