@@ -96,7 +96,7 @@ function Facilities() {
                     <p style={{ textAlign: 'Left', fontSize: '25px' }}> We employ advanced laser diagnostic equipment to gain deeper insights into engine performance. These includes different techniques such as Time resolved particle image velo symmetry(PIV), phase doppler sarticle analyser(PDPA), Laser induced flourescence imaging(LIF), Shadowgraphy, Background oriented schlieren(BOS), etc.
                     </p>
                 </p>
-                <p className="para">
+                <p className='para'>
                     <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }}>
                         Particle Image Velocimetry (PIV): </div>
                     <p style={{ textAlign: 'Left', fontSize: '25px' }}>PIV is used to quantify the two, three components Velocity feilds, Turbulance statics , etc of gaseous and two phase flows visualize and analyze the flow field within the engine. PIV unit includes a double pulsed laser(Nd: YAG, Nd: YLF) and a double pulsed low or high speed camera along with a synchronizer unit. PIV measurment provides fundamental units on the flow structures which helps to optimize different components.</p>
