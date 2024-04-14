@@ -15,14 +15,14 @@ function Footer() {
                                 <li class="nav-item mb-2"><a href="./Home" class="nav-link p-0 text-body-secondary">Home</a></li>
                                 <li class="nav-item mb-2"><a href="./Investors" class="nav-link p-0 text-body-secondary">Principal Investigator</a></li>
                                 <li class="nav-item mb-2"><a href="./Facilities" class="nav-link p-0 text-body-secondary">Facilities</a></li>
-                                <li class="nav-item mb-2"><a href="./Reaserch" class="nav-link p-0 text-body-secondary">Reaacearch Positions</a></li>
-                                <li class="nav-item mb-2"><a href="./contact" class="nav-link p-0 text-body-secondary">Conatact Us</a></li>
+                                <li class="nav-item mb-2"><a href="./Reaserch" class="nav-link p-0 text-body-secondary">Research Positions</a></li>
+                                <li class="nav-item mb-2"><a href="./contact" class="nav-link p-0 text-body-secondary">Contact Us</a></li>
                             </ul>
                         </div>
 
                         <div class="col-md-4 offset-md-1">
                             <form className='mb-5'>
-                                <h5 className='text-2xl text-primary'>Develpoer Profile</h5>
+                                <h5 className='text-2xl text-primary'>Developer Profile</h5>
                                 <div className="profiles d-flex flex-column">
                                     <a href="https://github.com/AbhaySingh502" className='text-decoration-none text-xl text-body-secondary'>Abhay Singh</a>
                                 </div>
