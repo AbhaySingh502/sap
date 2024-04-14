@@ -209,8 +209,8 @@ function Investors() {
             <div className="bottom w-4/5 m-auto">
                 <div className="bio">
 
-                    <span className='text-4xl ' style={{ color: '#1976d2', fontWeight: '600', textAlign: "justify" }}>Brief Bio</span>
-                    <p className='text-2xl p-4'>Dr. Shanmugadas, assistant professor within the Department of Mechanical Engineering at
+                    <span className='text-4xl ' style={{ color: '#1976d2', fontWeight: '600' }}>Brief Bio</span>
+                    <p className='text-2xl p-4' style={{ textAlign: 'justify' }}>Dr. Shanmugadas, assistant professor within the Department of Mechanical Engineering at
                         IIT Jammu, spearheads the Propulsion and Energy Lab, driving pioneering research and
                         innovation related to liquid rocket engines and aero engines. With a primary focus on novel
                         combustor concepts, his expertise extends across different areas including two-phase flow,
@@ -229,7 +229,7 @@ function Investors() {
                         exemplifies dedication to his field. He serves as the Associate Dean of Academic Affairs at
                         IIT Jammu, contributing to the institution&#39;s academic excellence.
                         Dr. Shanmugadas is the founder of SAP Aerospace, a pioneering deep-tech startup focused
-                        on developing cutting-edge aero engines for Unmanned Combat Aerial Vehicles (UCAVs),</p>
+                        on developing cutting-edge aero engines for Unmanned Combat Aerial Vehicles (UCAVs).</p>
                 </div>
 
                 <div className="main">
