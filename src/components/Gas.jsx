@@ -3,7 +3,6 @@ import React from 'react';
 // import '../css/gallery.css'
 const imageData = [
     './gas/pic15.png',
-    './gas/pic16.png',
     './gas/pic18.png',
     './gas/pic19.png',
     './gas/pic20.png',
