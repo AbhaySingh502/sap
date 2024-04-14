@@ -8,7 +8,7 @@ import PersonIcon from '@mui/icons-material/Person';
 
 const fdata = [
     {
-        head: 'Reaserch',
+        head: 'Research',
         list: [
             {
                 title: 'Lab/Collaborations:',
@@ -41,7 +41,7 @@ const fdata = [
 
         list: [
             {
-                li: 'B. Tech in Mecahnical Engineering, 20010, Calicut University'
+                li: 'B. Tech in Mechanical Engineering, 2010, Calicut University'
 
             },
             {
@@ -148,7 +148,7 @@ const fdata = [
                 li: '3 M. Tech. Students (ongoing)'
             },
             {
-                li: '3 M. Tech. Studen    ts (ongoing)'
+                li: '2 M. Tech. Students (Completed)'
             },
             {
                 li: '23 B.Tech students (B.Tech projects, ongoing,); 5 projects completed.'
