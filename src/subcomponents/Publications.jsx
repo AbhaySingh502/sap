@@ -137,7 +137,7 @@ function Publications() {
         <ul className='list-decimal mt-4' >
           {publication_data.map((val, key) => {
             return (
-              <li className='text-xl mt-3'>{val.name}</li>
+              <li className='text-xl mt-3' style={{ textAlign: 'justify' }}>{val.name}</li>
             )
           })}
         </ul>
