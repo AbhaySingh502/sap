@@ -30,13 +30,13 @@ function Home() {
                         <a href="/Turbine">
                             <HorizontalCard />
                         </a>
-                        Our group is developing next-generation combustors for aero-engines focusing on lean burn combustor technology.
+
                     </Tilt>
                     <Tilt style={{ display: "inline-block", width: '100%' }} tiltMaxAngleX={"2"} tiltMaxAngleY={"1"}>
                         <Link to="/Rocket" >
                             <HorizontalCard_two />
                         </Link>
-                        We are working to develop a reusable Liquid rocket combustor and currently efforts are directed to develop a novel injector concept for METHALOX engines.
+
                     </Tilt>
                 </div>
 
