@@ -68,10 +68,10 @@ function Facilities() {
                         Our injector test rigs are essential for evaluating the efficiency and reliability of fuel injection systems. We have developed a patented injector technology that can provide high combustion efficiency at a low fuel burn rate using our proprietary lean burn combustion process. This helps us to optimize fuel atomization and distribution for maximum engine efficiency. Our test rigs are capabale of handling areation fuel upto a pressure of 45 bar and a flow rate of 20g/s. The rigs can be used to test single injector and multi injector cconfriguations at atmospheric and elevated pressure and temperature conditions. </p>
                 </p>
 
-
-                <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }}> Thrust Stands </div>
-                <p style={{ textAlign: 'Left', fontSize: '25px' }}>Our thrust stand is a critical tool for measuring engine thrust accurately. It enables us to assess engine performance and thrust characteristics under various operating conditions.</p>
-
+                <p>
+                    <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }}> Thrust Stands </div>
+                    <p style={{ textAlign: 'Left', fontSize: '25px' }}>Our thrust stand is a critical tool for measuring engine thrust accurately. It enables us to assess engine performance and thrust characteristics under various operating conditions.</p>
+                </p>
                 <div className="image">
                     <img src="./facility/pic12.png" alt="" />
                 </div>
@@ -80,7 +80,8 @@ function Facilities() {
                 </div>
                 <p className="para">
                     <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }}>
-                        Spray Characterization </div> We conduct precise spray characterization experiments to understand and optimize fuel spray patterns, droplet size, and distribution within the combustion chamber
+                        Spray Characterization </div>
+                    <p style={{ textAlign: 'Left', fontSize: '25px' }}> We conduct precise spray characterization experiments to understand and optimize fuel spray patterns, droplet size, and distribution within the combustion chamber</p>
                 </p>
             </div>
             <div className="vedio">
@@ -92,11 +93,13 @@ function Facilities() {
                     <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }}>
                         Advanced Laser Diagnostics </div>
 
-                    We employ advanced laser diagnostic equipment to gain deeper insights into engine performance. These includes different techniques such as Time resolved particle image velo symmetry(PIV), phase doppler sarticle analyser(PDPA), Laser induced flourescence imaging(LIF), Shadowgraphy, Background oriented schlieren(BOS), etc.
-
-
+                    <p style={{ textAlign: 'Left', fontSize: '25px' }}> We employ advanced laser diagnostic equipment to gain deeper insights into engine performance. These includes different techniques such as Time resolved particle image velo symmetry(PIV), phase doppler sarticle analyser(PDPA), Laser induced flourescence imaging(LIF), Shadowgraphy, Background oriented schlieren(BOS), etc.
+                    </p>
+                </p>
+                <p>
                     <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }}>
-                        Particle Image Velocimetry (PIV): </div> PIV is used to quantify the two, three components Velocity feilds, Turbulance statics , etc of gaseous and two phase flows visualize and analyze the flow field within the engine. PIV unit includes a double pulsed laser(Nd: YAG, Nd: YLF) and a double pulsed low or high speed camera along with a synchronizer unit. PIV measurment provides fundamental units on the flow structures which helps to optimize different components.
+                        Particle Image Velocimetry (PIV): </div>
+                    <p style={{ textAlign: 'Left', fontSize: '25px' }}>PIV is used to quantify the two, three components Velocity feilds, Turbulance statics , etc of gaseous and two phase flows visualize and analyze the flow field within the engine. PIV unit includes a double pulsed laser(Nd: YAG, Nd: YLF) and a double pulsed low or high speed camera along with a synchronizer unit. PIV measurment provides fundamental units on the flow structures which helps to optimize different components.</p>
                 </p>
             </div>
 
