@@ -210,26 +210,27 @@ function Investors() {
                 <div className="bio">
 
                     <span className='text-4xl ' style={{ color: '#1976d2', fontWeight: '600' }}>Brief Bio</span>
-                    <p className='text-2xl p-4' style={{ textAlign: 'justify' }}>Dr. Shanmugadas, assistant professor within the Department of Mechanical Engineering at
-                        IIT Jammu, spearheads the Propulsion and Energy Lab, driving pioneering research and
-                        innovation related to liquid rocket engines and aero engines. With a primary focus on novel
-                        combustor concepts, his expertise extends across different areas including two-phase flow,
-                        experimental combustion, and laser flow diagnostics. Currently, his group is involved in the
-                        development of a novel gas turbine combustor capable of utilizing various fuels such as
-                        Hydrogen, methane, and SAF.
-                        Dr. Shanmugadas is recognized for his contributions to fuel injection systems with many
-                        publications and his group has filed many patents. He is actively engaged with industry and
-                        governmental bodies like ISRO and GE Aerospace and promotes impactful collaborations.
-                        He also works closely with the National Centre for Combustion Research and Development
-                        (NCCRD) at IIT Madras, focusing on advancing gas turbine combustion research.
-                        Additionally, he collaborates with the Chair of Space Propulsion and Mobility at Technical
-                        University Munich, Germany, in the area of injection concepts for liquid rocket engines.
-                        Dr. Shanmugadas is a professional member of the American Institute of Aeronautics and
-                        Astronautics (AIAA) and a lifetime member of the Combustion Institute, Dr. Shanmugadas
-                        exemplifies dedication to his field. He serves as the Associate Dean of Academic Affairs at
-                        IIT Jammu, contributing to the institution&#39;s academic excellence.
-                        Dr. Shanmugadas is the founder of SAP Aerospace, a pioneering deep-tech startup focused
-                        on developing cutting-edge aero engines for Unmanned Combat Aerial Vehicles (UCAVs).</p>
+                    <p className='text-2xl p-4' style={{ textAlign: 'justify' }}>
+                        <p>Dr. Shanmugadas, assistant professor within the Department of Mechanical Engineering at
+                            IIT Jammu, spearheads the Propulsion and Energy Lab, driving pioneering research and
+                            innovation related to liquid rocket engines and aero engines. With a primary focus on novel
+                            combustor concepts, his expertise extends across different areas including two-phase flow,
+                            experimental combustion, and laser flow diagnostics. Currently, his group is involved in the
+                            development of a novel gas turbine combustor capable of utilizing various fuels such as
+                            Hydrogen, methane, and SAF.</p>
+                        <p style={{ marginTop: '20px', marginBottom: '20px' }}>Dr. Shanmugadas is recognized for his contributions to fuel injection systems with many
+                            publications and his group has filed many patents. He is actively engaged with industry and
+                            governmental bodies like ISRO and GE Aerospace and promotes impactful collaborations.
+                            He also works closely with the National Centre for Combustion Research and Development
+                            (NCCRD) at IIT Madras, focusing on advancing gas turbine combustion research.
+                            Additionally, he collaborates with the Chair of Space Propulsion and Mobility at Technical
+                            University Munich, Germany, in the area of injection concepts for liquid rocket engines.</p>
+                        <p>Dr. Shanmugadas is a professional member of the American Institute of Aeronautics and
+                            Astronautics (AIAA) and a lifetime member of the Combustion Institute, Dr. Shanmugadas
+                            exemplifies dedication to his field. He serves as the Associate Dean of Academic Affairs at
+                            IIT Jammu, contributing to the institution&#39;s academic excellence.
+                            Dr. Shanmugadas is the founder of SAP Aerospace, a pioneering deep-tech startup focused
+                            on developing cutting-edge aero engines for Unmanned Combat Aerial Vehicles (UCAVs).</p></p>
                 </div>
 
                 <div className="main">

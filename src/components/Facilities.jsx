@@ -17,7 +17,7 @@ function Facilities() {
                 Our propulsion lab is equipped with a wide array of facilities to comprehensively test engine components.
             </div>
             <div className="image">
-                <img src="./facility/pic2.png" alt="" />
+                <img src="./facility/pic14.png" alt="" />
             </div>
 
             <div className="image">
