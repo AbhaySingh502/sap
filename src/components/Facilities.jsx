@@ -23,8 +23,10 @@ function Facilities() {
             <div className="image">
                 <p className='para  '>
 
-                    <div style={{ color: '#69fe68', textAlign: 'left', width: '100%', fontSize: "20px" }}>Compressed air supply system </div >
-                    The 500 KW compressed air supply system provides a 30 bar 800 K air supply to test our High pressure engine combustor.
+                    <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }}>Compressed air supply system </div >
+                    <p style={{ textAlign: 'Left', fontSize: '25px' }}>
+                        The 500 KW compressed air supply system provides a 30 bar 800 K air supply to test our High pressure engine combustor.
+                    </p>
                 </p>
                 <div className="image">
                     <img src="./facility/pic3.png" alt="" />
@@ -40,7 +42,9 @@ function Facilities() {
                 </div>
 
                 <p className="para">
-                    <div style={{ color: '#69fe68', textAlign: 'left', width: '100%', fontSize: "20px" }} > Combustor Test Rigs </div> We have specialized rigs designed for testing combustor components.These setups allow us to evaluate areodynamics, spray characteristics, combustion efficiency, stability, and emissions ensuring that our combustor technology meet the highest standards of performance and environmental responsibility.
+                    <div style={{ color: '#69fe68', textAlign: 'center', width: '100%', fontSize: "25px" }} > Combustor Test Rigs </div>
+                    <p style={{ textAlign: 'Left', fontSize: '25px' }}>We have specialized rigs designed for testing combustor components.These setups allow us to evaluate areodynamics, spray characteristics, combustion efficiency, stability, and emissions ensuring that our combustor technology meet the highest standards of performance and environmental responsibility.
+                    </p>
                 </p>
                 <div className="image">
                     <img src="./facility/pic4.png" alt="" />
@@ -50,19 +54,23 @@ function Facilities() {
 
                 <img src="https://static.wixstatic.com/media/efaac4_b4dfcf15fbae45a8a2b421c4ac7160c7~mv2.jpg/v1/fill/w_1920,h_645,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/efaac4_b4dfcf15fbae45a8a2b421c4ac7160c7~mv2.jpg" alt="" />
                 <p className="para">
-                    <div style={{ color: '#69fe68', textAlign: 'left', width: '100%', fontSiz: "20px" }}>
-                        Hot Fire Experiments</div>Our lab allows for detailed combustion characterization experiments, enabling us to fine-tune combustion processes for maximum efficiency and minimal emissions. We have developed a fuel flex combustor concept which allows the usage of multiple fuel such as Jet A1, kerosene, Methane, Hydrogen and Syn gas.
+                    <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }}>
+                        Hot Fire Experiments</div>
+                    <p style={{ textAlign: 'Left', fontSize: '25px' }}>Our lab allows for detailed combustion characterization experiments, enabling us to fine-tune combustion processes for maximum efficiency and minimal emissions. We have developed a fuel flex combustor concept which allows the usage of multiple fuel such as Jet A1, kerosene, Methane, Hydrogen and Syn gas.</p>
                 </p>
                 <video autoPlay muted loop className='videoBackgroundStyle object-center' style={videoback}>
                     <source src={videoUrl1} type="video/mp4" />
                     Your browser does not support the video tag.
                 </video>
                 <p className="para">
-                    <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }}>  Injector Test Rigs</div>Our injector test rigs are essential for evaluating the efficiency and reliability of fuel injection systems. We have developed a patented injector technology that can provide high combustion efficiency at a low fuel burn rate using our proprietary lean burn combustion process. This helps us to optimize fuel atomization and distribution for maximum engine efficiency. Our test rigs are capabale of handling areation fuel upto a pressure of 45 bar and a flow rate of 20g/s. The rigs can be used to test single injector and multi injector cconfriguations at atmospheric and elevated pressure and temperature conditions.
+                    <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }}>  Injector Test Rigs</div>
+                    <p style={{ textAlign: 'Left', fontSize: '25px' }}>
+                        Our injector test rigs are essential for evaluating the efficiency and reliability of fuel injection systems. We have developed a patented injector technology that can provide high combustion efficiency at a low fuel burn rate using our proprietary lean burn combustion process. This helps us to optimize fuel atomization and distribution for maximum engine efficiency. Our test rigs are capabale of handling areation fuel upto a pressure of 45 bar and a flow rate of 20g/s. The rigs can be used to test single injector and multi injector cconfriguations at atmospheric and elevated pressure and temperature conditions. </p>
+                </p>
 
 
-
-                    <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }}> Thrust Stands </div> Our thrust stand is a critical tool for measuring engine thrust accurately. It enables us to assess engine performance and thrust characteristics under various operating conditions.</p>
+                <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }}> Thrust Stands </div>
+                <p style={{ textAlign: 'Left', fontSize: '25px' }}>Our thrust stand is a critical tool for measuring engine thrust accurately. It enables us to assess engine performance and thrust characteristics under various operating conditions.</p>
 
                 <div className="image">
                     <img src="./facility/pic12.png" alt="" />
