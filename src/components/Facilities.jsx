@@ -23,7 +23,7 @@ function Facilities() {
             <div className="image">
                 <p className='para  '>
 
-                    <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }}>Compressed air supply system </div >
+                    <div style={{ color: '#69fe68', textAlign: 'left', width: '100%', fontSize: "20px" }}>Compressed air supply system </div >
                     The 500 KW compressed air supply system provides a 30 bar 800 K air supply to test our High pressure engine combustor.
                 </p>
                 <div className="image">
@@ -40,7 +40,7 @@ function Facilities() {
                 </div>
 
                 <p className="para">
-                    <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }} > Combustor Test Rigs </div> We have specialized rigs designed for testing combustor components.These setups allow us to evaluate areodynamics, spray characteristics, combustion efficiency, stability, and emissions ensuring that our combustor technology meet the highest standards of performance and environmental responsibility.
+                    <div style={{ color: '#69fe68', textAlign: 'left', width: '100%', fontSize: "20px" }} > Combustor Test Rigs </div> We have specialized rigs designed for testing combustor components.These setups allow us to evaluate areodynamics, spray characteristics, combustion efficiency, stability, and emissions ensuring that our combustor technology meet the highest standards of performance and environmental responsibility.
                 </p>
                 <div className="image">
                     <img src="./facility/pic4.png" alt="" />
@@ -50,7 +50,7 @@ function Facilities() {
 
                 <img src="https://static.wixstatic.com/media/efaac4_b4dfcf15fbae45a8a2b421c4ac7160c7~mv2.jpg/v1/fill/w_1920,h_645,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/efaac4_b4dfcf15fbae45a8a2b421c4ac7160c7~mv2.jpg" alt="" />
                 <p className="para">
-                    <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }}>
+                    <div style={{ color: '#69fe68', textAlign: 'left', width: '100%', fontSiz: "20px" }}>
                         Hot Fire Experiments</div>Our lab allows for detailed combustion characterization experiments, enabling us to fine-tune combustion processes for maximum efficiency and minimal emissions. We have developed a fuel flex combustor concept which allows the usage of multiple fuel such as Jet A1, kerosene, Methane, Hydrogen and Syn gas.
                 </p>
                 <video autoPlay muted loop className='videoBackgroundStyle object-center' style={videoback}>
