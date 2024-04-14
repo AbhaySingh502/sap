@@ -28,7 +28,7 @@ const Updates = () => {
                     )
                 })}
             </div> */}
-            <div style={{ height: '95vh', width: '100vw', fontSize: '50px' }}> Visit SAP Aeropspace for more updates</div>
+            <div style={{ height: '80vh', width: '95vw', fontSize: '40px', display: 'flex', justifyContent: 'center' }}> Visit SAP Aeropspace for more updates</div>
         </>
     )
 }
