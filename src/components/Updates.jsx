@@ -5,7 +5,7 @@ import updates_data from '../data/updates_data'
 const Updates = () => {
     return (
         <>
-            <div className="mt-20">
+            {/* <div className="mt-20">
                 {updates_data.map((val, key) => {
                     return (
                         <div className="upcoming_event flex justify-center " >
@@ -27,7 +27,8 @@ const Updates = () => {
                         </div>
                     )
                 })}
-            </div>
+            </div> */}
+            Visit SAP Aeropspace for more updates
         </>
     )
 }
