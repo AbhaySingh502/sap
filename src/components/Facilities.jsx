@@ -42,12 +42,12 @@ function Facilities() {
                 </div>
 
                 <p className="para">
-                    <div style={{ color: '#69fe68', textAlign: 'center', width: '100%', fontSize: "25px" }} > Combustor Test Rigs </div>
+                    <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }} > Combustor Test Rigs </div>
                     <p style={{ textAlign: 'Left', fontSize: '25px' }}>We have specialized rigs designed for testing combustor components.These setups allow us to evaluate areodynamics, spray characteristics, combustion efficiency, stability, and emissions ensuring that our combustor technology meet the highest standards of performance and environmental responsibility.
                     </p>
                 </p>
                 <div className="image">
-                    <img src="./facility/pic4.png" alt="" />
+                    <img src="./facility/pic4.png" alt="" style={{ height: '50vw' }} />
                 </div>
             </div>
             <div className="image">
@@ -72,11 +72,10 @@ function Facilities() {
                     <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }}> Thrust Stands </div>
                     <p style={{ textAlign: 'Left', fontSize: '25px' }}>Our thrust stand is a critical tool for measuring engine thrust accurately. It enables us to assess engine performance and thrust characteristics under various operating conditions.</p>
                 </p>
+
                 <div className="image">
-                    <img src="./facility/pic12.png" alt="" />
-                </div>
-                <div className="image">
-                    <img src="./facility/pic13.png" alt="" />
+                    <img src="./facility/pic12.png" alt="" style={{ height: '80vh' }} />
+                    <img src="./facility/pic13.png" alt="" style={{ height: '80vh' }} />
                 </div>
                 <p className="para">
                     <div style={{ color: '#69fe68', textAlign: 'center', width: '100%' }}>
