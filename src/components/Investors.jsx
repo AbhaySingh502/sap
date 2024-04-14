@@ -209,7 +209,7 @@ function Investors() {
             <div className="bottom w-4/5 m-auto">
                 <div className="bio">
 
-                    <span className='text-4xl ' style={{ color: '#1976d2', fontWeight: '600' }}>Brief Bio</span>
+                    <span className='text-4xl ' style={{ color: '#1976d2', fontWeight: '600', textAlign: "justify" }}>Brief Bio</span>
                     <p className='text-2xl p-4'>Dr. Shanmugadas, assistant professor within the Department of Mechanical Engineering at
                         IIT Jammu, spearheads the Propulsion and Energy Lab, driving pioneering research and
                         innovation related to liquid rocket engines and aero engines. With a primary focus on novel
