@@ -8,8 +8,11 @@
     margin: auto;
     text-align: left;
     display: flex;
-    padding: 3rem;
-    padding-left: 12rem;
+
+}
+
+.para p {
+    padding-left: 6rem;
 }
 
 .para div {

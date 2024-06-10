@@ -14,7 +14,7 @@ export function Gas() {
     return (
         <>
             <div className="head text-6xl text-center pt-4" style={{ borderBottom: '2px solid black', background: '#111827', color: '#1976d2', borderBottomLeftRadius: '50%', borderBottomRightRadius: '50%' }}>
-                Gas Turbine Engine
+                Gas Turbine Combustion
             </div>
             <div className="gallery mt-8">
                 {imageData.map((item, index) => {

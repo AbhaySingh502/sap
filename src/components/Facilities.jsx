@@ -105,12 +105,12 @@ function Facilities() {
 
             <div className="image">
                 <img src="https://static.wixstatic.com/media/efaac4_ed19433978104b7c90164d943703eb01~mv2.jpg/v1/fill/w_1920,h_645,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/efaac4_ed19433978104b7c90164d943703eb01~mv2.jpg" alt="" />
-                <p className="para">
-                    <span style={{ color: '#69fe68' }}>
+                <p className="para" style={{ fontSize: '25px', paddingLeft: '6rem' }}>
+                    <span style={{ color: '#69fe68', fontSize: '2rem' }}>
                         Phase Doppler Particle Analyzer (PDPA):</span> PDPA is instrumental in characterizing droplet sizes and velocities distributaions of a spray. The atomization charaterstics of gas turbine injectors and rocket engine injectors can be captured using PDPA mesurments.
-                    <span style={{ color: '#69fe68' }}>
-                        Laser-Induced Fluorescence (LIF) Systems: </span> LIF systems allow us to study the mixing, species concetrations , flame structure, etc.
-                    <span style={{ color: '#69fe68' }}>
+                    <span style={{ color: '#69fe68', fontSize: '2rem' }}>
+                        Laser-Induced Fluorescence (LIF) Systems:</span>  LIF systems allow us to study the mixing, species concetrations , flame structure, etc.
+                    <span style={{ color: '#69fe68', fontSize: '2rem' }}>
                         High-speed cameras, IR camera and Nd: </span>YAG Lasers: We have a set of lasers and cameras that can be used to capture various flows and combustion processes.
                 </p>
             </div>
